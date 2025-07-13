@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1 class="title">Image Gallery</h1>
+
+  <div class="filters">
+    <button onclick="filterImages('All')">Show all</button>
+    <button onclick="filterImages('Phones')">Phones</button>
+    <button onclick="filterImages('Clothes')">Clothes</button>
+    <button onclick="filterImages('Shoes')">Shoes</button>
+  </div>
+
+  <div class="gallery">
+    <div class="image-card Phones"><img src="./images/phone01.jpg" alt="Phone 1" onclick="openLightbox(this)"></div>
+    <div class="image-card Clothes"><img src="./images/cloth1.jpg" alt="Clothing 1" onclick="openLightbox(this)"></div>
+    <div class="image-card Shoes"><img src="./images/shoes1.jpg" alt="Shoes 1" onclick="openLightbox(this)"></div>
+    <div class="image-card Phones"><img src="./images/phone02.jpg" alt="Phone 2" onclick="openLightbox(this)"></div>
+    <div class="image-card Clothes"><img src="./images/cloth02.jpg" alt="Clothing 2" onclick="openLightbox(this)"></div>
+    <div class="image-card Shoes"><img src="./images/shoes02.jpg" alt="Shoes 02"onclick="openLightbox(this)"></div>
+    <div class="image-card Phones"><img src="./images/phone03.jpg" alt="Phone 3" onclick="openLightbox(this)"></div>
+    <div class="image-card Clothes"><img src="./images/cloth3.jpg" alt="Clothing 3" onclick="openLightbox(this)"></div>
+    <div class="image-card Shoes"><img src="./images/shoes3.jpg" alt="Shoes 3" onclick="openLightbox(this)"></div>
+    <div class="image-card Phones"><img src="./images/phone04.jpg" alt="Phone 4" onclick="openLightbox(this)"></div>
+    <div class="image-card Clothes"><img src="./images/cloth04.jpg" alt="Clothing 4" onclick="openLightbox(this)"></div>
+    <div class="image-card Shoes"><img src="./images/shoes04.jpg" alt="shoes 4" onclick="openLightbox(this)"></div>
+    <div class="image-card Phones"><img src="./images/phone05.jpg" alt="phone 5" onclick="openLightbox(this)"></div>
+    <div class="image-card Clothes"><img src="./images/cloth05.jpg" alt="clothing 5" onclick="openLightbox(this)"></div>
+    <div class="image-card Shoes"><img src="./images/shoes05.jpg" alt="shoes 5" onclick="openLightbox(this)"></div>    
+
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" class="lightbox-img" alt="Lightbox Image">
+    <button class="nav prev" onclick="prevImage()">❮</button>
+    <button class="nav next" onclick="nextImage()">❯</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
