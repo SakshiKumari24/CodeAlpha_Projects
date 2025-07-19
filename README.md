@@ -17,3 +17,22 @@ Navigate through images inside the lightbox using previous/next controls
 🎯 Clean UI – Simple and minimalistic interface
 
 🛠️ Tech Stack:HTML5, CSS3, JavaScript
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🔢 Basic Calculator Web App
+
+This is a Basic Calculator built using HTML, CSS, and JavaScript as a part of my Frontend Development Internship at CodeAlpha. The calculator performs all fundamental arithmetic operations and features a responsive, user-friendly interface.
+
+🚀 Features
+✔️ Addition, Subtraction, Multiplication, Division
+✔️ Clear and Delete functions
+✔️ Keyboard support for seamless input
+✔️ Real-time display of operations
+✔️ Error handling for invalid expressions
+✔️ Responsive and clean UI
+
+🛠️ Technologies Used
+ HTML5 – Markup and structure  
+ CSS3 – Styling, layout, and responsiveness  
+ JavaScript – Logic and interactivity  
