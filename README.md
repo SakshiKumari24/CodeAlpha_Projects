@@ -36,3 +36,28 @@ This is a Basic Calculator built using HTML, CSS, and JavaScript as a part of my
  HTML5 – Markup and structure  
  CSS3 – Styling, layout, and responsiveness  
  JavaScript – Logic and interactivity  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🎧 Music Player Web App
+
+This is a Music Player web application built using HTML , CSS , and  JavaScript , developed during my Frontend Development Internship at CodeAlpha.
+
+The app allows users to play songs, control volume, skip tracks, and view current song details like title, artist, and album cover — all wrapped in a clean and responsive UI.
+
+🚀 Features
+
+🎵 Play, pause, and resume music
+⏮️ Skip forward and backward between tracks
+🎚️ Seek bar to track song progress
+🔊 Volume control slider
+🖼️ Album art, song title, and artist display
+🔁 Automatic transition to the next song
+📱 Fully responsive and mobile-friendly design
+💡 Animated rotating album cover on play
+
+🛠️ Tech Stack
+
+HTML5 – Structure and layout  
+CSS3 – Styling, animations, responsiveness  
+JavaScript – Audio controls and UI logic
